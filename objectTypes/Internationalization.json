@@ -1,0 +1,10 @@
+{
+	"name": "Internationalization",
+	"plugin-id": "Internationalization",
+	"sid": 957651659187599,
+	"singleglobal-inst": {
+		"type": "Internationalization",
+		"properties": {},
+		"uid": 10
+	}
+}

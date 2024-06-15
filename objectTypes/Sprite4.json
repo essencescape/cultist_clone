@@ -1,0 +1,140 @@
+{
+	"name": "Sprite4",
+	"plugin-id": "Sprite",
+	"sid": 945265540694279,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "uiid",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 855838472066194
+		},
+		{
+			"name": "category",
+			"type": "string",
+			"desc": "",
+			"show": true,
+			"sid": 138040756676346
+		},
+		{
+			"name": "lore",
+			"type": "string",
+			"desc": "",
+			"show": true,
+			"sid": 970749195466254
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "DragnDrop",
+			"name": "DragDrop",
+			"sid": 613723325754738
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 250,
+						"height": 250,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 8645765,
+						"collisionPoly": {
+							"points": [
+								0.2300000000000001,
+								0.18200000000000005,
+								0.6239999999999997,
+								0.17000000000000004,
+								0.7019999999999997,
+								0.8459999999999999,
+								0.20600000000000007,
+								0.8339999999999999
+							]
+						},
+						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "Image Point 1",
+								"x": 0.492,
+								"y": 0.252
+							},
+							{
+								"name": "Image Point 2",
+								"x": 0.484,
+								"y": 0.772
+							}
+						],
+						"duration": 1,
+						"tag": "Gnosis"
+					},
+					{
+						"width": 250,
+						"height": 300,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6506784,
+						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "Image Point 1",
+								"x": 0.492,
+								"y": 0.252
+							},
+							{
+								"name": "Image Point 2",
+								"x": 0.484,
+								"y": 0.772
+							}
+						],
+						"duration": 1,
+						"tag": "Vigor"
+					},
+					{
+						"width": 250,
+						"height": 250,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3205536,
+						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "Image Point 1",
+								"x": 0.492,
+								"y": 0.252
+							},
+							{
+								"name": "Image Point 2",
+								"x": 0.484,
+								"y": 0.772
+							}
+						],
+						"duration": 1,
+						"tag": "Determination"
+					}
+				],
+				"sid": 891770664480665,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 0
+			}
+		],
+		"subfolders": []
+	}
+}

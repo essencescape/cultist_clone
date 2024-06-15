@@ -1,0 +1,15 @@
+{
+	"name": "aspect_icon_lore",
+	"plugin-id": "Text",
+	"sid": 115960216625479,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Pin",
+			"name": "Pin",
+			"sid": 613240887373970
+		}
+	],
+	"effectTypes": []
+}

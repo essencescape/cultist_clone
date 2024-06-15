@@ -1,0 +1,14 @@
+{
+	"name": "HTMLElement2",
+	"plugin-id": "HTMLElement",
+	"sid": 882585292480186,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "DragnDrop",
+			"name": "DragDrop",
+			"sid": 652524415250052
+		}
+	]
+}
