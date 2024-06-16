@@ -9,70 +9,70 @@
 		{
 			"type": "plugin",
 			"id": "Audio",
-			"name": "Audio",
+			"name": "Аудио",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "plugin",
 			"id": "HTMLElement",
-			"name": "HTML Element",
+			"name": "HTML элемент",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "plugin",
 			"id": "Internationalization",
-			"name": "Internationalization",
+			"name": "Локализация",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "plugin",
 			"id": "Mouse",
-			"name": "Mouse",
+			"name": "Мышь",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "plugin",
 			"id": "Sprite",
-			"name": "Sprite",
+			"name": "Спрайт",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "plugin",
 			"id": "Text",
-			"name": "Text",
+			"name": "Текст",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "behavior",
 			"id": "DragnDrop",
-			"name": "Drag & Drop",
+			"name": "Перетаскивание",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "behavior",
 			"id": "Pin",
-			"name": "Pin",
+			"name": "Прикрепить",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "behavior",
 			"id": "Tween",
-			"name": "Tween",
+			"name": "Твин-анимация",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "effect",
 			"id": "multiply",
-			"name": "Multiply",
+			"name": "Умножение",
 			"author": "Scirra",
 			"bundled": false
 		}
@@ -243,7 +243,7 @@
 					}
 				},
 				{
-					"name": "New Array.json",
+					"name": "Card Library eng.json",
 					"type": "application/json",
 					"sid": 866563709456181,
 					"file-info": {
@@ -251,9 +251,41 @@
 					}
 				},
 				{
-					"name": "Новый массив.json",
+					"name": "Card Library rus.json",
 					"type": "application/json",
-					"sid": 734775307834782,
+					"sid": 433508133233172,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "Category rus.json",
+					"type": "application/json",
+					"sid": 303603872744219,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "Category eng.json",
+					"type": "application/json",
+					"sid": 340851555669970,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "Action Boxes rus.json",
+					"type": "application/json",
+					"sid": 156174059635925,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "Action Boxes eng.json",
+					"type": "application/json",
+					"sid": 225716899003622,
 					"file-info": {
 						"purpose": "none"
 					}
