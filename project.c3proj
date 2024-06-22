@@ -8,71 +8,85 @@
 	"usedAddons": [
 		{
 			"type": "plugin",
+			"id": "AJAX",
+			"name": "AJAX",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Arr",
+			"name": "Array",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
 			"id": "Audio",
-			"name": "Аудио",
+			"name": "Audio",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "plugin",
 			"id": "HTMLElement",
-			"name": "HTML элемент",
+			"name": "HTML Element",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "plugin",
 			"id": "Internationalization",
-			"name": "Локализация",
+			"name": "Internationalization",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "plugin",
 			"id": "Mouse",
-			"name": "Мышь",
+			"name": "Mouse",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "plugin",
 			"id": "Sprite",
-			"name": "Спрайт",
+			"name": "Sprite",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "plugin",
 			"id": "Text",
-			"name": "Текст",
+			"name": "Text",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "behavior",
 			"id": "DragnDrop",
-			"name": "Перетаскивание",
+			"name": "Drag & Drop",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "behavior",
 			"id": "Pin",
-			"name": "Прикрепить",
+			"name": "Pin",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "behavior",
 			"id": "Tween",
-			"name": "Твин-анимация",
+			"name": "Tween",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "effect",
 			"id": "multiply",
-			"name": "Умножение",
+			"name": "Multiply",
 			"author": "Scirra",
 			"bundled": false
 		}
@@ -119,7 +133,10 @@
 			"Sprite23",
 			"Sprite20",
 			"Sprite24",
-			"Спрайт"
+			"Спрайт",
+			"AJAX",
+			"Array",
+			"Text2"
 		],
 		"subfolders": []
 	},
@@ -137,7 +154,8 @@
 	},
 	"eventSheets": {
 		"items": [
-			"Event sheet 1"
+			"Event sheet 1",
+			"Event sheet 2"
 		],
 		"subfolders": []
 	},
@@ -334,6 +352,22 @@
 					"name": "Endings rus.json",
 					"type": "application/json",
 					"sid": 701346669225444,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "New Array.json",
+					"type": "application/json",
+					"sid": 453585835216060,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "Новый массив.json",
+					"type": "application/json",
+					"sid": 642308844827256,
 					"file-info": {
 						"purpose": "none"
 					}

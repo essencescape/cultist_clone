@@ -1,0 +1,94 @@
+{
+	"name": "Event sheet 2",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 709861224059344
+				}
+			],
+			"actions": [
+				{
+					"id": "request-project-file",
+					"objectClass": "AJAX",
+					"sid": 518075932360752,
+					"parameters": {
+						"tag": "\"library\"",
+						"file": "Card Library eng.json"
+					}
+				}
+			],
+			"sid": 274778353337990
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-completed",
+					"objectClass": "AJAX",
+					"sid": 867084011179534,
+					"parameters": {
+						"tag": "\"library\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "load",
+					"objectClass": "Array",
+					"sid": 705835572011401,
+					"parameters": {
+						"json": "AJAX.LastData"
+					}
+				}
+			],
+			"sid": 800950384861634
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "for-each-element",
+					"objectClass": "Array",
+					"sid": 867377094150778,
+					"parameters": {
+						"axes": "xy"
+					}
+				}
+			],
+			"actions": [],
+			"sid": 575250710511900,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-current-value",
+							"objectClass": "Array",
+							"sid": 605467094170231,
+							"parameters": {
+								"comparison": 0,
+								"value": "\"Stasis\""
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-text",
+							"objectClass": "Text2",
+							"sid": 728164528588979,
+							"parameters": {
+								"text": "Array.At(Array.CurX+2,Array.CurY)"
+							}
+						}
+					],
+					"sid": 520678125162270
+				}
+			]
+		}
+	],
+	"sid": 605613024245513
+}
