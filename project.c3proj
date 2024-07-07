@@ -1,6 +1,6 @@
 {
 	"projectFormatVersion": 1,
-	"savedWithRelease": 38802,
+	"savedWithRelease": 39700,
 	"name": "New project",
 	"runtime": "c3",
 	"useWorker": "auto",
@@ -337,6 +337,22 @@
 					"file-info": {
 						"purpose": "none"
 					}
+				},
+				{
+					"name": "New Array.json",
+					"type": "application/json",
+					"sid": 243858345880011,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "Новый массив.json",
+					"type": "application/json",
+					"sid": 964633363414040,
+					"file-info": {
+						"purpose": "none"
+					}
 				}
 			],
 			"subfolders": []
@@ -395,7 +411,6 @@
 		"gpuPreference": "high-performance",
 		"scriptsType": "module",
 		"framerateMode": "vsync",
-		"compositingMode": "standard",
 		"sampling": "nearest",
 		"downscaling": "medium",
 		"renderingMode": "auto",
