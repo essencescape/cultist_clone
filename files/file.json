@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Card 1",
+        "category":{ "1":"Attack",},
+        "stats": {
+            "power": 10,
+            "speed": 5
+        }
+    },
+    {
+        "name": "Card 2",
+        "category": "Defense",
+        "stats": {
+            "armor": 8,
+            "resistance": 4
+        }
+    },
+    {
+        "name": "Card 3",
+        "category": "Magic",
+        "stats": {
+            "mana": 15,
+            "intelligence": 7
+        }
+    }
+]

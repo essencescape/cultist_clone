@@ -179,22 +179,37 @@
 					}
 				},
 				{
-					"id": "set-position-to-another-object",
-					"objectClass": "Sprite19",
-					"sid": 280746034869903,
+					"id": "set-layer-scale",
+					"objectClass": "System",
+					"sid": 565207535016150,
 					"parameters": {
-						"object": "Sprite18",
-						"image-point-optional": "1"
+						"layer": "0",
+						"scale": ".7"
 					}
+				},
+				{
+					"id": "set-layer-scale",
+					"objectClass": "System",
+					"sid": 491161297081595,
+					"parameters": {
+						"layer": "1",
+						"scale": ".7"
+					}
+				},
+				{
+					"id": "stop-all",
+					"objectClass": "Audio",
+					"sid": 640769023291003
 				},
 				{
 					"id": "play",
 					"objectClass": "Audio",
-					"sid": 906244380480902,
+					"sid": 961845880376837,
+					"disabled": true,
 					"parameters": {
-						"audio-file": "2.Linvadel_s_lie",
-						"loop": "looping",
-						"volume": "-16",
+						"audio-file": "1.Serenity of Creation",
+						"loop": "not-looping",
+						"volume": "0",
 						"stereo-pan": "0",
 						"tag-optional": "\"\""
 					}
@@ -207,7 +222,7 @@
 			"conditions": [
 				{
 					"id": "on-drop",
-					"objectClass": "Sprite4",
+					"objectClass": "card_template",
 					"sid": 559968031869529,
 					"behaviorType": "DragDrop"
 				}
@@ -215,31 +230,31 @@
 			"actions": [
 				{
 					"id": "move-to-layer",
-					"objectClass": "Sprite4",
-					"sid": 744648447862217,
+					"objectClass": "card_template",
+					"sid": 819142036704666,
 					"parameters": {
-						"layer": "5"
+						"layer": "1"
 					}
 				},
 				{
 					"id": "move-to-layer",
-					"objectClass": "Text",
-					"sid": 306813738847822,
+					"objectClass": "Card_text_label",
+					"sid": 245196273928032,
 					"parameters": {
-						"layer": "5"
+						"layer": "1"
 					}
 				},
 				{
 					"id": "move-to-layer",
-					"objectClass": "Sprite3",
-					"sid": 868566707560302,
+					"objectClass": "card_logo",
+					"sid": 778736139713325,
 					"parameters": {
-						"layer": "5"
+						"layer": "1"
 					}
 				},
 				{
 					"id": "set-font-size",
-					"objectClass": "Text",
+					"objectClass": "Card_text_label",
 					"sid": 199118615147493,
 					"parameters": {
 						"size-pt": "10"
@@ -247,7 +262,7 @@
 				},
 				{
 					"id": "set-size",
-					"objectClass": "Sprite3",
+					"objectClass": "card_logo",
 					"sid": 972633180743944,
 					"parameters": {
 						"width": "47",
@@ -256,7 +271,7 @@
 				},
 				{
 					"id": "set-size",
-					"objectClass": "Sprite4",
+					"objectClass": "card_template",
 					"sid": 140073746980820,
 					"parameters": {
 						"width": "65",
@@ -264,14 +279,15 @@
 					}
 				}
 			],
-			"sid": 187863715304026
+			"sid": 187863715304026,
+			"disabled": true
 		},
 		{
 			"eventType": "block",
 			"conditions": [
 				{
 					"id": "is-overlapping-another-object",
-					"objectClass": "Sprite4",
+					"objectClass": "card_template",
 					"sid": 661640666796787,
 					"parameters": {
 						"object": "Sprite13"
@@ -280,13 +296,14 @@
 			],
 			"actions": [],
 			"sid": 867905115681105,
+			"disabled": true,
 			"children": [
 				{
 					"eventType": "block",
 					"conditions": [
 						{
 							"id": "on-drop",
-							"objectClass": "Sprite4",
+							"objectClass": "card_template",
 							"sid": 475496650289960,
 							"behaviorType": "DragDrop"
 						}
@@ -294,31 +311,31 @@
 					"actions": [
 						{
 							"id": "move-to-layer",
-							"objectClass": "Sprite4",
-							"sid": 882154984894992,
+							"objectClass": "card_template",
+							"sid": 609644877884451,
 							"parameters": {
-								"layer": "5"
+								"layer": "1"
 							}
 						},
 						{
 							"id": "move-to-layer",
-							"objectClass": "Text",
-							"sid": 165795485098330,
+							"objectClass": "Card_text_label",
+							"sid": 865051372689871,
 							"parameters": {
-								"layer": "5"
+								"layer": "1"
 							}
 						},
 						{
 							"id": "move-to-layer",
-							"objectClass": "Sprite3",
-							"sid": 452741974968157,
+							"objectClass": "card_logo",
+							"sid": 959269512930084,
 							"parameters": {
-								"layer": "5"
+								"layer": "1"
 							}
 						},
 						{
 							"id": "set-position-to-another-object",
-							"objectClass": "Sprite4",
+							"objectClass": "card_template",
 							"sid": 975402552511071,
 							"parameters": {
 								"object": "Sprite13",
@@ -326,7 +343,8 @@
 							}
 						}
 					],
-					"sid": 131716083169881
+					"sid": 131716083169881,
+					"disabled": true
 				}
 			]
 		},
@@ -340,7 +358,7 @@
 				},
 				{
 					"id": "is-overlapping-another-object",
-					"objectClass": "Sprite4",
+					"objectClass": "card_template",
 					"sid": 420990569992172,
 					"parameters": {
 						"object": "Sprite13"
@@ -365,7 +383,7 @@
 			"conditions": [
 				{
 					"id": "on-created",
-					"objectClass": "Sprite4",
+					"objectClass": "card_template",
 					"sid": 262573043217674
 				}
 			],
@@ -381,29 +399,31 @@
 				},
 				{
 					"id": "spawn-another-object",
-					"objectClass": "Sprite4",
-					"sid": 694184562543192,
+					"objectClass": "card_template",
+					"sid": 961207532493761,
 					"parameters": {
-						"object": "Sprite3",
-						"layer": "5",
+						"object": "card_logo",
+						"layer": "1",
 						"image-point": "1",
-						"create-hierarchy": false
+						"create-hierarchy": false,
+						"template-name": "\"\""
 					}
 				},
 				{
 					"id": "spawn-another-object",
-					"objectClass": "Sprite4",
-					"sid": 642722890540635,
+					"objectClass": "card_template",
+					"sid": 980663984372120,
 					"parameters": {
-						"object": "Text",
-						"layer": "5",
+						"object": "Card_text_label",
+						"layer": "1",
 						"image-point": "2",
-						"create-hierarchy": false
+						"create-hierarchy": false,
+						"template-name": "\"\""
 					}
 				},
 				{
 					"id": "set-instvar-value",
-					"objectClass": "Sprite4",
+					"objectClass": "card_template",
 					"sid": 457905520972970,
 					"parameters": {
 						"instance-variable": "uiid",
@@ -412,7 +432,7 @@
 				},
 				{
 					"id": "set-instvar-value",
-					"objectClass": "Sprite3",
+					"objectClass": "card_logo",
 					"sid": 995099723988133,
 					"parameters": {
 						"instance-variable": "uuid",
@@ -421,7 +441,7 @@
 				},
 				{
 					"id": "set-instvar-value",
-					"objectClass": "Text",
+					"objectClass": "Card_text_label",
 					"sid": 491465846266929,
 					"parameters": {
 						"instance-variable": "uuid",
@@ -430,27 +450,27 @@
 				},
 				{
 					"id": "set-animation-frame",
-					"objectClass": "Sprite3",
+					"objectClass": "card_logo",
 					"sid": 662904979745375,
 					"parameters": {
-						"frame-number": "Sprite4.AnimationFrame"
+						"frame-number": "card_template.AnimationFrame"
 					}
 				},
 				{
 					"id": "set-text",
-					"objectClass": "Text",
+					"objectClass": "Card_text_label",
 					"sid": 831598722612075,
 					"parameters": {
-						"text": "Sprite4.AnimationFrameTag"
+						"text": "card_template.AnimationFrameTag"
 					}
 				},
 				{
 					"id": "pin-to-object-properties",
-					"objectClass": "Sprite3",
+					"objectClass": "card_logo",
 					"sid": 857632935586716,
 					"behaviorType": "Pin",
 					"parameters": {
-						"pin-to": "Sprite4",
+						"pin-to": "card_template",
 						"x": true,
 						"y": true,
 						"angle": true,
@@ -461,11 +481,11 @@
 				},
 				{
 					"id": "pin-to-object-properties",
-					"objectClass": "Text",
+					"objectClass": "Card_text_label",
 					"sid": 154737225624926,
 					"behaviorType": "Pin",
 					"parameters": {
-						"pin-to": "Sprite4",
+						"pin-to": "card_template",
 						"x": true,
 						"y": true,
 						"angle": true,
@@ -475,14 +495,15 @@
 					}
 				}
 			],
-			"sid": 635256658793270
+			"sid": 635256658793270,
+			"disabled": true
 		},
 		{
 			"eventType": "block",
 			"conditions": [
 				{
 					"id": "is-dragging",
-					"objectClass": "Sprite4",
+					"objectClass": "card_template",
 					"sid": 962189216200886,
 					"behaviorType": "DragDrop"
 				}
@@ -490,7 +511,7 @@
 			"actions": [
 				{
 					"id": "set-instvar-value",
-					"objectClass": "Sprite4",
+					"objectClass": "card_template",
 					"sid": 578406038936224,
 					"parameters": {
 						"instance-variable": "category",
@@ -505,7 +526,7 @@
 					"conditions": [
 						{
 							"id": "compare-animation-frame-tag",
-							"objectClass": "Sprite4",
+							"objectClass": "card_template",
 							"sid": 150640335320540,
 							"parameters": {
 								"comparison": 0,
@@ -575,7 +596,7 @@
 					"conditions": [
 						{
 							"id": "compare-animation-frame-tag",
-							"objectClass": "Sprite4",
+							"objectClass": "card_template",
 							"sid": 344315451284118,
 							"parameters": {
 								"comparison": 0,
@@ -645,7 +666,7 @@
 					"conditions": [
 						{
 							"id": "compare-animation-frame-tag",
-							"objectClass": "Sprite4",
+							"objectClass": "card_template",
 							"sid": 990592815266482,
 							"parameters": {
 								"comparison": 0,
@@ -715,29 +736,29 @@
 					"conditions": [
 						{
 							"id": "compare-instance-variable",
-							"objectClass": "Text",
+							"objectClass": "Card_text_label",
 							"sid": 470932154075419,
 							"parameters": {
 								"instance-variable": "uuid",
 								"comparison": 0,
-								"value": "Sprite4.uiid"
+								"value": "card_template.uiid"
 							}
 						},
 						{
 							"id": "compare-instance-variable",
-							"objectClass": "Sprite3",
+							"objectClass": "card_logo",
 							"sid": 254230282205257,
 							"parameters": {
 								"instance-variable": "uuid",
 								"comparison": 0,
-								"value": "Sprite4.uiid"
+								"value": "card_template.uiid"
 							}
 						}
 					],
 					"actions": [
 						{
 							"id": "set-font-size",
-							"objectClass": "Text",
+							"objectClass": "Card_text_label",
 							"sid": 292405536548160,
 							"parameters": {
 								"size-pt": "16"
@@ -745,7 +766,7 @@
 						},
 						{
 							"id": "set-size",
-							"objectClass": "Sprite3",
+							"objectClass": "card_logo",
 							"sid": 486836779972376,
 							"parameters": {
 								"width": "81",
@@ -754,7 +775,7 @@
 						},
 						{
 							"id": "set-size",
-							"objectClass": "Sprite4",
+							"objectClass": "card_template",
 							"sid": 497162556263106,
 							"parameters": {
 								"width": "100",
@@ -763,10 +784,10 @@
 						},
 						{
 							"id": "set-text",
-							"objectClass": "Text",
+							"objectClass": "Card_text_label",
 							"sid": 481558272824615,
 							"parameters": {
-								"text": "Sprite4.AnimationFrameTag"
+								"text": "card_template.AnimationFrameTag"
 							}
 						}
 					],
@@ -781,7 +802,7 @@
 									"objectClass": "descriptor_card_title",
 									"sid": 882633782280281,
 									"parameters": {
-										"text": "Sprite4.AnimationFrameTag"
+										"text": "card_template.AnimationFrameTag"
 									}
 								},
 								{
@@ -789,15 +810,7 @@
 									"objectClass": "descriptor_cardcategory",
 									"sid": 353270171035643,
 									"parameters": {
-										"text": "Sprite4.category"
-									}
-								},
-								{
-									"id": "set-text",
-									"objectClass": "lore_text",
-									"sid": 701707391855720,
-									"parameters": {
-										"text": "Sprite4.lore"
+										"text": "card_template.category"
 									}
 								}
 							],
@@ -820,7 +833,7 @@
 					"actions": [
 						{
 							"id": "move-to-layer",
-							"objectClass": "Sprite4",
+							"objectClass": "card_template",
 							"sid": 570120956121022,
 							"parameters": {
 								"layer": "6"
@@ -828,7 +841,7 @@
 						},
 						{
 							"id": "move-to-layer",
-							"objectClass": "Text",
+							"objectClass": "Card_text_label",
 							"sid": 100282519503059,
 							"parameters": {
 								"layer": "6"
@@ -836,7 +849,7 @@
 						},
 						{
 							"id": "move-to-layer",
-							"objectClass": "Sprite3",
+							"objectClass": "card_logo",
 							"sid": 186217725570206,
 							"parameters": {
 								"layer": "6"
@@ -867,7 +880,7 @@
 					"conditions": [
 						{
 							"id": "is-overlapping-at-offset",
-							"objectClass": "Sprite4",
+							"objectClass": "card_template",
 							"sid": 837514662476936,
 							"parameters": {
 								"object": "card_holder_constructor",
@@ -884,7 +897,7 @@
 							"conditions": [
 								{
 									"id": "on-drop",
-									"objectClass": "Sprite4",
+									"objectClass": "card_template",
 									"sid": 826630265989848,
 									"behaviorType": "DragDrop"
 								}
@@ -892,7 +905,7 @@
 							"actions": [
 								{
 									"id": "set-position-to-another-object",
-									"objectClass": "Sprite4",
+									"objectClass": "card_template",
 									"sid": 103676781754114,
 									"parameters": {
 										"object": "card_holder_constructor",
@@ -911,7 +924,7 @@
 			"conditions": [
 				{
 					"id": "is-dragging",
-					"objectClass": "Sprite4",
+					"objectClass": "card_template",
 					"sid": 907986389497527,
 					"behaviorType": "DragDrop",
 					"isInverted": true
@@ -925,29 +938,29 @@
 					"conditions": [
 						{
 							"id": "compare-instance-variable",
-							"objectClass": "Text",
+							"objectClass": "Card_text_label",
 							"sid": 449362309222176,
 							"parameters": {
 								"instance-variable": "uuid",
 								"comparison": 0,
-								"value": "Sprite4.uiid"
+								"value": "card_template.uiid"
 							}
 						},
 						{
 							"id": "compare-instance-variable",
-							"objectClass": "Sprite3",
+							"objectClass": "card_logo",
 							"sid": 935315078280240,
 							"parameters": {
 								"instance-variable": "uuid",
 								"comparison": 0,
-								"value": "Sprite4.uiid"
+								"value": "card_template.uiid"
 							}
 						}
 					],
 					"actions": [
 						{
 							"id": "set-font-size",
-							"objectClass": "Text",
+							"objectClass": "Card_text_label",
 							"sid": 564782641695684,
 							"parameters": {
 								"size-pt": "10"
@@ -955,7 +968,7 @@
 						},
 						{
 							"id": "set-size",
-							"objectClass": "Sprite3",
+							"objectClass": "card_logo",
 							"sid": 460018115140934,
 							"parameters": {
 								"width": "47",
@@ -964,7 +977,7 @@
 						},
 						{
 							"id": "set-size",
-							"objectClass": "Sprite4",
+							"objectClass": "card_template",
 							"sid": 198593002739052,
 							"parameters": {
 								"width": "65",
@@ -986,7 +999,7 @@
 					"parameters": {
 						"mouse-button": "left",
 						"click-type": "clicked",
-						"object-clicked": "Sprite4"
+						"object-clicked": "card_template"
 					}
 				}
 			],
@@ -1118,7 +1131,7 @@
 				},
 				{
 					"id": "set-animation-frame",
-					"objectClass": "Sprite19",
+					"objectClass": "constructor_box_text_bg",
 					"sid": 194623953626073,
 					"parameters": {
 						"frame-number": "Sprite21.AnimationFrame"
@@ -1162,6 +1175,157 @@
 					"sid": 492379475735981
 				}
 			]
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-mouse-wheel",
+					"objectClass": "Mouse",
+					"sid": 236730591476493,
+					"parameters": {
+						"direction": "down"
+					}
+				},
+				{
+					"id": "compare-two-values",
+					"objectClass": "System",
+					"sid": 516971141134428,
+					"parameters": {
+						"first-value": "LayerScale(0)",
+						"comparison": 4,
+						"second-value": ".7"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-layer-scale",
+					"objectClass": "System",
+					"sid": 522651710555855,
+					"parameters": {
+						"layer": "0",
+						"scale": "LayerScale(0)-0.03"
+					}
+				},
+				{
+					"id": "set-layer-scale",
+					"objectClass": "System",
+					"sid": 418308045944580,
+					"parameters": {
+						"layer": "1",
+						"scale": "LayerScale(0)-0.03"
+					}
+				}
+			],
+			"sid": 390216241160448
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-mouse-wheel",
+					"objectClass": "Mouse",
+					"sid": 730872112028597,
+					"parameters": {
+						"direction": "up"
+					}
+				},
+				{
+					"id": "compare-two-values",
+					"objectClass": "System",
+					"sid": 284616623160166,
+					"parameters": {
+						"first-value": "LayerScale(0)",
+						"comparison": 2,
+						"second-value": "1.8"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-layer-scale",
+					"objectClass": "System",
+					"sid": 543598850438130,
+					"parameters": {
+						"layer": "0",
+						"scale": "LayerScale(0)+0.03"
+					}
+				},
+				{
+					"id": "set-layer-scale",
+					"objectClass": "System",
+					"sid": 582658205392919,
+					"parameters": {
+						"layer": "1",
+						"scale": "LayerScale(0)+0.03"
+					}
+				}
+			],
+			"sid": 235613985916331
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-click",
+					"objectClass": "Mouse",
+					"sid": 161032103304568,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "double-clicked"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 143601739062833,
+					"parameters": {
+						"object-to-create": "card_template",
+						"layer": "0",
+						"x": "Mouse.x",
+						"y": "Mouse.Y",
+						"create-hierarchy": true,
+						"template-name": "\"card_temp\""
+					}
+				},
+				{
+					"id": "set-animation-frame",
+					"objectClass": "card_template",
+					"sid": 144484382802128,
+					"parameters": {
+						"frame-number": "int(random(0,7))"
+					}
+				}
+			],
+			"sid": 381453571480041
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "pick-children",
+					"objectClass": "card_template",
+					"sid": 103127743037662,
+					"parameters": {
+						"child": "Card_text_label",
+						"which": "own"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-text",
+					"objectClass": "Card_text_label",
+					"sid": 261498802703817,
+					"parameters": {
+						"text": "card_template.AnimationFrameTag"
+					}
+				}
+			],
+			"sid": 890124604466551
 		}
 	],
 	"sid": 916027929054604

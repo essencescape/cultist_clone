@@ -1,0 +1,23 @@
+{
+	"name": "Card_text_label",
+	"plugin-id": "Text",
+	"sid": 799173163208828,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "uuid",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 703038825360478
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Pin",
+			"name": "Pin",
+			"sid": 106162912984331
+		}
+	],
+	"effectTypes": []
+}

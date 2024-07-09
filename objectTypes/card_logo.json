@@ -1,0 +1,138 @@
+{
+	"name": "card_logo",
+	"plugin-id": "Sprite",
+	"sid": 815614579787320,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "uuid",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 388255139439539
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Pin",
+			"name": "Pin",
+			"sid": 401786468014455
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 512,
+						"height": 512,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 7705889,
+						"collisionPoly": {
+							"points": [
+								0.494140625,
+								0.00390625,
+								0.66015625,
+								0.03515625,
+								0.810546875,
+								0.123046875,
+								0.921875,
+								0.271484375,
+								0.6875,
+								0.9375,
+								0.375,
+								0.99609375,
+								0.150390625,
+								0.849609375,
+								0.078125,
+								0.609375,
+								0.166015625,
+								0.1171875,
+								0.318359375,
+								0.03125
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": "Gnosis"
+					},
+					{
+						"width": 512,
+						"height": 512,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 1912783,
+						"collisionPoly": {
+							"points": [
+								0.396484375,
+								0.025390625,
+								0.728515625,
+								0.02734375,
+								0.85546875,
+								0.091796875,
+								0.9921875,
+								0.474609375,
+								0.75,
+								0.767578125,
+								0.197265625,
+								0.96484375,
+								0,
+								0.7421875,
+								0.30078125,
+								0.052734375
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": "Vigor"
+					},
+					{
+						"width": 512,
+						"height": 512,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 7796294,
+						"collisionPoly": {
+							"points": [
+								0.46484375,
+								0.181640625,
+								0.53515625,
+								0.181640625,
+								0.998046875,
+								0.513671875,
+								0.53515625,
+								0.818359375,
+								0.46484375,
+								0.818359375,
+								0.001953125,
+								0.486328125
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": "Determination"
+					}
+				],
+				"sid": 156332873513905,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 0
+			}
+		],
+		"subfolders": []
+	}
+}

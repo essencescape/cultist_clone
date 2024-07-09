@@ -1,0 +1,75 @@
+{
+	"name": "Event sheet 3",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 326535239538028,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "Text3"
+					}
+				}
+			],
+			"actions": [],
+			"sid": 261080397377808,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-text",
+							"objectClass": "Text3",
+							"sid": 868192825312020,
+							"parameters": {
+								"text-to-compare": "\"New Game\"",
+								"case-sensitivity": "ignore-case"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 493596390386346,
+							"parameters": {
+								"layout": "Layout 1"
+							}
+						}
+					],
+					"sid": 466017467664868
+				}
+			]
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 382087269304028
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 716770195741161,
+					"parameters": {
+						"audio-file": "1.Serenity of Creation",
+						"loop": "looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 721704615221087
+		}
+	],
+	"sid": 236087475225807
+}

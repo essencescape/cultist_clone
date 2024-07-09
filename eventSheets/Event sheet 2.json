@@ -2,6 +2,36 @@
 	"name": "Event sheet 2",
 	"events": [
 		{
+			"eventType": "variable",
+			"name": "dealt_card",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 623728984387685
+		},
+		{
+			"eventType": "variable",
+			"name": "loopisindex",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 390323129335689
+		},
+		{
+			"eventType": "variable",
+			"name": "isrus",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 916947421003217
+		},
+		{
 			"eventType": "block",
 			"conditions": [
 				{
@@ -49,45 +79,206 @@
 		},
 		{
 			"eventType": "block",
+			"conditions": [],
+			"actions": [],
+			"sid": 575250710511900
+		},
+		{
+			"eventType": "block",
 			"conditions": [
 				{
-					"id": "for-each-element",
-					"objectClass": "Array",
-					"sid": 867377094150778,
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 889026040500657,
 					"parameters": {
-						"axes": "xy"
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "card_template"
 					}
 				}
 			],
-			"actions": [],
-			"sid": 575250710511900,
+			"actions": [
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 764600065341527,
+					"parameters": {
+						"variable": "dealt_card",
+						"value": "0"
+					}
+				}
+			],
+			"sid": 712342712847551,
 			"children": [
 				{
 					"eventType": "block",
 					"conditions": [
 						{
-							"id": "compare-current-value",
-							"objectClass": "Array",
-							"sid": 605467094170231,
+							"id": "for",
+							"objectClass": "System",
+							"sid": 275055020165697,
 							"parameters": {
-								"comparison": 0,
-								"value": "\"Stasis\""
+								"name": "\"\"",
+								"start-index": "0",
+								"end-index": "Array.Height"
+							}
+						},
+						{
+							"id": "compare-eventvar",
+							"objectClass": "System",
+							"sid": 880281288247958,
+							"parameters": {
+								"variable": "dealt_card",
+								"comparison": 2,
+								"value": "17"
 							}
 						}
 					],
 					"actions": [
 						{
-							"id": "set-text",
-							"objectClass": "Text2",
-							"sid": 728164528588979,
+							"id": "add-to-eventvar",
+							"objectClass": "System",
+							"sid": 776606115124801,
 							"parameters": {
-								"text": "Array.At(Array.CurX+2,Array.CurY)"
+								"variable": "dealt_card",
+								"value": "1"
 							}
 						}
 					],
-					"sid": 520678125162270
+					"sid": 160415042078117,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 169079228247821,
+									"parameters": {
+										"variable": "isrus"
+									}
+								}
+							],
+							"actions": [],
+							"sid": 452578303844967,
+							"children": [
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "compare-at-xy",
+											"objectClass": "Array",
+											"sid": 211776249788241,
+											"parameters": {
+												"x": "0",
+												"y": "loopindex",
+												"comparison": 0,
+												"value": "card_template.AnimationFrameTag"
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "set-text",
+											"objectClass": "lore_text",
+											"sid": 719322282229288,
+											"parameters": {
+												"text": "Array.At(8,loopindex)"
+											}
+										},
+										{
+											"id": "set-text",
+											"objectClass": "Text2",
+											"sid": 531693935734569,
+											"parameters": {
+												"text": "Array.At(0,loopindex)"
+											}
+										}
+									],
+									"sid": 647769170170102
+								}
+							]
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 359407196493215,
+									"parameters": {
+										"variable": "isrus"
+									},
+									"isInverted": true
+								}
+							],
+							"actions": [],
+							"sid": 147713495692457,
+							"children": [
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "compare-at-xy",
+											"objectClass": "Array",
+											"sid": 514221137676004,
+											"parameters": {
+												"x": "0",
+												"y": "loopindex",
+												"comparison": 0,
+												"value": "card_template.AnimationFrameTag"
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "set-text",
+											"objectClass": "lore_text",
+											"sid": 435347199880889,
+											"parameters": {
+												"text": "Array.At(9,loopindex)"
+											}
+										},
+										{
+											"id": "set-text",
+											"objectClass": "Text2",
+											"sid": 683340434803184,
+											"parameters": {
+												"text": "Array.At(0,loopindex)"
+											}
+										}
+									],
+									"sid": 145274045987893
+								}
+							]
+						}
+					]
 				}
 			]
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 421586545661882,
+					"parameters": {
+						"key": 32
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "toggle-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 624604391106011,
+					"parameters": {
+						"variable": "isrus"
+					}
+				}
+			],
+			"sid": 348419331897352
 		}
 	],
 	"sid": 605613024245513
