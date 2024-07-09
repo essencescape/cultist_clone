@@ -8,354 +8,52 @@
     "data": [
         [
             [
-                "Имя"
+                "Аrete rang name"
             ],
             [
-                "Гнозис"
+                "0 - Dormant"
             ],
             [
-                "Живучесть"
+                "1-  Untrained"
             ],
             [
-                "Устремлённость"
+                "2- Talented (U should choose main wind on this stage)"
             ],
             [
-                ""
+                "3- Novice"
             ],
             [
-                ""
+                "4- Trained"
             ],
             [
-                ""
+                "5- Powerful "
             ],
             [
-                ""
+                "6- Insightful "
             ],
             [
-                "Стазис"
+                "7- Magnificent (Аrchmage) (Сan get a minor Victory)- Middle game , Triumph bonus"
             ],
             [
-                "Разрыв"
+                "8- Sophisticated"
             ],
             [
-                "Сияние"
+                "9 - Sage"
             ],
             [
-                "Грёза"
+                "10 - Enlightened one (Late Game, road to asention)"
             ],
             [
-                "Торжество"
+                "11 - Supreme"
             ],
             [
-                "Гхор"
+                "12 Greatest Paradox (Almost Ascend)"
             ],
             [
-                "Поглощение Гхора"
+                "13  God (Main Victory End)"
             ],
             [
-                "Гордыня"
-            ],
-            [
-                "Переполняющая мощь"
-            ],
-            [
-                "Трепет"
-            ],
-            [
-                "Откровение"
-            ],
-            [
-                "Голод"
-            ],
-            [
-                "Инстинкт"
-            ],
-            [
-                "Собранность"
-            ],
-            [
-                ""
-            ],
-            [
-                ""
-            ],
-            [
-                ""
-            ],
-            [
-                ""
-            ],
-            [
-                ""
-            ],
-            [
-                ""
-            ],
-            [
-                ""
-            ],
-            [
-                ""
-            ],
-            [
-                ""
-            ],
-            [
-                ""
-            ],
-            [
-                ""
-            ],
-            [
-                ""
-            ],
-            [
-                ""
-            ],
-            [
-                ""
-            ],
-            [
-                ""
-            ],
-            [
-                ""
-            ],
-            [
-                ""
-            ],
-            [
-                ""
-            ],
-            [
-                ""
-            ],
-            [
-                ""
-            ],
-            [
-                ""
-            ],
-            [
-                ""
-            ],
-            [
-                ""
-            ],
-            [
-                ""
-            ],
-            [
-                ""
-            ],
-            [
-                ""
-            ],
-            [
-                ""
-            ],
-            [
-                ""
-            ],
-            [
-                ""
-            ],
-            [
-                ""
-            ],
-            [
-                ""
-            ],
-            [
-                ""
-            ],
-            [
-                ""
-            ],
-            [
-                ""
-            ],
-            [
-                ""
-            ],
-            [
-                ""
-            ],
-            [
-                ""
-            ],
-            [
-                ""
-            ],
-            [
-                ""
-            ],
-            [
-                ""
-            ],
-            [
-                ""
-            ],
-            [
-                ""
-            ],
-            [
-                ""
-            ],
-            [
-                ""
-            ],
-            [
-                ""
-            ],
-            [
-                ""
-            ],
-            [
-                ""
-            ],
-            [
-                ""
-            ],
-            [
-                ""
-            ],
-            [
-                ""
-            ],
-            [
-                ""
-            ],
-            [
-                ""
-            ],
-            [
-                ""
-            ],
-            [
-                ""
-            ],
-            [
-                ""
-            ],
-            [
-                ""
-            ],
-            [
-                ""
-            ],
-            [
-                ""
-            ],
-            [
-                ""
-            ],
-            [
-                ""
-            ],
-            [
-                ""
-            ],
-            [
-                ""
-            ],
-            [
-                ""
-            ],
-            [
-                ""
-            ],
-            [
-                ""
-            ],
-            [
-                ""
-            ],
-            [
-                ""
-            ],
-            [
-                ""
-            ],
-            [
-                ""
-            ],
-            [
-                ""
-            ],
-            [
-                ""
-            ],
-            [
-                ""
-            ],
-            [
-                ""
-            ],
-            [
-                ""
-            ],
-            [
-                ""
-            ],
-            [
-                ""
-            ],
-            [
-                ""
-            ],
-            [
-                ""
-            ]
-        ],
-        [
-            [
-                "Ссылка на изображение карточки"
-            ],
-            [
-                ""
-            ],
-            [
-                ""
-            ],
-            [
-                ""
-            ],
-            [
-                ""
-            ],
-            [
-                ""
-            ],
-            [
-                ""
-            ],
-            [
-                ""
-            ],
-            [
-                ""
-            ],
-            [
-                ""
-            ],
-            [
-                ""
-            ],
-            [
-                ""
-            ],
-            [
-                ""
-            ],
-            [
-                ""
-            ],
-            [
-                ""
-            ],
-            [
-                ""
+                "14 ???? Unimaginable  Creation (If player goes true pure sourse, he can become even more scary and break out this reality into Clarity"
             ],
             [
                 ""
@@ -612,16 +310,52 @@
         ],
         [
             [
-                "Аспекты"
+                "stats"
             ],
             [
-                "2 Стазис 1 Сияние 1 Грёза"
+                " Arete Power = 0-1"
             ],
             [
-                "2 Триумф 1 Разрыв"
+                "Power = 7"
             ],
             [
-                "2 Сияния 1 Грёза"
+                "Power = 15"
+            ],
+            [
+                "Power  =31"
+            ],
+            [
+                "Power = 62"
+            ],
+            [
+                "Power = 130 (Dream bonus)"
+            ],
+            [
+                "Power = 161 (Stasis bonus)"
+            ],
+            [
+                "Power = 220 (Cannot loose from basic Defeats)(Triumph Bonus)"
+            ],
+            [
+                "Power = 250 (Rapture Bonus) (U cannot die from Overpower by Rapture)"
+            ],
+            [
+                "Power above 310 (Ghor Bonus)"
+            ],
+            [
+                "Power above 350"
+            ],
+            [
+                "Power above 390"
+            ],
+            [
+                "Power above 400"
+            ],
+            [
+                "Power above 440"
+            ],
+            [
+                "Power = 600"
             ],
             [
                 ""
@@ -636,46 +370,10 @@
                 ""
             ],
             [
-                "1 Стазис (или больше)"
+                ""
             ],
             [
-                "1 Разрыв (или больше)"
-            ],
-            [
-                "1 Сияние (или больше)"
-            ],
-            [
-                "1 Грёза (или больше)"
-            ],
-            [
-                "1 Торжество (или больше)"
-            ],
-            [
-                "1 Гхор (или больше)"
-            ],
-            [
-                "6 Ghor 2 Stasis"
-            ],
-            [
-                "5 Разрыв 1 Торжество 1 Грёза"
-            ],
-            [
-                "11 Разрыв  2 Торжества 2 Грёза"
-            ],
-            [
-                "8 Сияния 2 Грёзы 2  Триумфа"
-            ],
-            [
-                "4 Грёзы 5 Сияния "
-            ],
-            [
-                "4 Триумфа  2 Разрыва 3 Гхора"
-            ],
-            [
-                "1 Стазис 2 Разрыва 3 Триумфа"
-            ],
-            [
-                "3 Стазис 1 Сияние"
+                ""
             ],
             [
                 ""
@@ -914,16 +612,49 @@
         ],
         [
             [
-                "Присутствующие Категории"
+                "Lore description"
             ],
             [
-                "Потенциал, Квинтэссенция"
+                "You are sleeping in this reality and cannot awoke. U cannot hear the winds. [Your Arete does not exist or it is too faint to be seen]."
             ],
             [
-                "Потенциал, Квинтэссенция"
+                "You seem to be able to bend the wind. But without a teacher, nothing comes of it. [Your Arete is just beginning to take shape, you don’t realize how much you are changing, at least not yet]."
             ],
             [
-                "Потенциал, Квинтэссенция"
+                "You are more capable than most and your strengths have been recognized by someone significant. [Your Arete strives to ascend, but first you must choose what kind of magician you will become]."
+            ],
+            [
+                "You have become an adept of the chosen path. Now you need to learn and cognize in order to develop yourself and find those who will go with you together.  [Your Arete removes the limitations of knowledge from you, mysticism and empiricism fill your world with colors.]."
+            ],
+            [
+                "You have developed yourself and become a young magician, now you can overcome any obstacle, read any book. Master more things to nourish yourself with the juice of the colors of magic. [Your Arete is burning, thirsting for something new, it is like a flaring fire of bright orange flashes.]."
+            ],
+            [
+                "You assert your power in this world by collecting a collection of powerful artifacts. Your teachers appreciate you, you are worth considering. [A purple shade appears in your Arete, the Dream has now become more pliable for you. ]."
+            ],
+            [
+                "You have become more attentive to mysticism and incredible coincidences of fate. Stasis echoes your requests and opens up new paths for you....  [Your Arete allows you to go deeper into the blue of yourself. ]."
+            ],
+            [
+                "You have completed the basics of your training, now you can become an archmage and stop on your path. But do you really want this? [Your Arete has reached new horizons, now transformations of your body are given to you with incredible simplicity and your essence gives off emerald azure.]"
+            ],
+            [
+                "You are so skilled in the winds of magic that your fingertips now create colossal whirlwinds of power, your blows are truly terrible. [Your Arete craves saturation, offering you someone else's life in exchange for longevity in red velvet.]"
+            ],
+            [
+                "Your wisdom surpasses most mortals, and students have even begun to reach out to you. Ghor can no longer distort you.[Your Arete is able to speak like the wind, change the essence of things, dance, pretend to be human... A man dressed in white...]"
+            ],
+            [
+                "Knowledge of all spheres has been achieved, titanic work has been done. You close your eyes and surrender to the power of calm thoughts [There is so much light inside you that now you hide it in the glare of rooms, the cracks of doors and shadows. Аrete sings in happines, maybe you will become weird to others.]"
+            ],
+            [
+                "Nobody understands you anymore. Only Udrazen would understand, but he has been gone for a long time, you are moving away from people in search of unforgettableness.[Arete unlockes new edges od relity to you, your cognito splites between new ways.]"
+            ],
+            [
+                "You ascended to the level of a mortal-god out of will, but perhaps you can become something more [Your Arete shines and shimmers in unimaginable forms . It's almost perfect]."
+            ],
+            [
+                "Now you are one of the gods of this reality, you have achieved the impossible and become a god. A real god. You have reached the highest level without losing yourself. [Your Arete eclipses the sky and the stars. You are free from your shackles.."
             ],
             [
                 ""
@@ -938,46 +669,13 @@
                 ""
             ],
             [
-                "Аспект, Квинтэссенция "
+                ""
             ],
             [
-                "Аспект, Квинтэссенция "
+                ""
             ],
             [
-                "Аспект, Квинтэссенция"
-            ],
-            [
-                "Аспект, Квинтэссенция"
-            ],
-            [
-                "Аспект, Квинтэссенция"
-            ],
-            [
-                "Аспект, Квинтэссенция"
-            ],
-            [
-                "Аспект, Проклятье"
-            ],
-            [
-                "Аспект, Эффект"
-            ],
-            [
-                "Аспект, Эффект"
-            ],
-            [
-                "Аспект, Эффект"
-            ],
-            [
-                "Аспект, Эффект"
-            ],
-            [
-                "Аспект, Эффект"
-            ],
-            [
-                "Аспект, Эффект"
-            ],
-            [
-                "Аспект, Эффект"
+                ""
             ],
             [
                 ""
@@ -1216,16 +914,16 @@
         ],
         [
             [
-                "Постоянство"
+                "Category"
             ],
             [
-                "Постоянный"
+                "Arete, Quintessense"
             ],
             [
-                "Постоянный"
+                ""
             ],
             [
-                "Постоянный"
+                ""
             ],
             [
                 ""
@@ -1518,7 +1216,25 @@
         ],
         [
             [
-                "Временный эффект"
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
             ],
             [
                 ""
@@ -1542,46 +1258,28 @@
                 ""
             ],
             [
-                "Временный "
+                ""
             ],
             [
-                "Временный"
+                ""
             ],
             [
-                "Временный"
+                ""
             ],
             [
-                "Временный"
+                ""
             ],
             [
-                "Временный"
+                ""
             ],
             [
-                "Временный"
+                ""
             ],
             [
-                "Временный"
+                ""
             ],
             [
-                "Временный"
-            ],
-            [
-                "Временный."
-            ],
-            [
-                "Временный."
-            ],
-            [
-                "Временный."
-            ],
-            [
-                "Временный."
-            ],
-            [
-                "Временный."
-            ],
-            [
-                "Временный."
+                ""
             ],
             [
                 ""
@@ -1820,16 +1518,16 @@
         ],
         [
             [
-                "Художественное описание"
+                ""
             ],
             [
-                "Истинные знания Творения, открывшие тебе  холодный, рациональный порядок мистического восхождения к вершинам ветров магии."
+                ""
             ],
             [
-                "Течение жизненных потоков в твоём теле наполняющих мышцы невероятной силой, сердце желанием , конечности подвижностью"
+                ""
             ],
             [
-                "Драйв принуждающий смертных бороться и побеждать благодаря силе воли и невинности перед неизбежным ужасом бытия."
+                ""
             ],
             [
                 ""
@@ -1844,46 +1542,46 @@
                 ""
             ],
             [
-                "...\"Аспект первичного порядка, воплощение мороза бесконечной пустоты в начале времён.\""
+                ""
             ],
             [
-                "\"Аспект разделения, бурления и сокрушения. Его мощь и буря сжигают неосторожных в багряном пламени.\" - Книга Крови Друмакта"
+                ""
             ],
             [
-                "\"То что сияет внутри каждого, ярче тысячи солнц когда  сознание трепещет от откровений.\" - Удразен Великий"
+                ""
             ],
             [
-                "Пурпурное чудо преображения всегда манило детей, чувство мечты, полёта и перемен."
+                ""
             ],
             [
-                "Зелёная спираль, порождающая ростки соития. Каждый кто примет её в себе познает инстинкт дикости и триумф пира жизни."
+                ""
             ],
             [
-                "Неразумная смола мира, мертвый источник силы. Кроме того, она развратит и уничтожит вас низведя до неразумного предела, если маг не защитит себя от пагубного пожирания."
+                ""
             ],
             [
-                "Тёмный ихор слился с твоей Квинтесенцией ! Силы Нисхождения и  преломляющего распада искорёжат твоё естество, придавят к земле и обратят тебя в пыль."
+                ""
             ],
             [
-                "Ты чувствуешь как превосходишь других магов, и людей. Но они всегда получают больше чем ты, ты знаешь что заслуживаешь силы чтобы разорвать их на части, и тебе нравится это чувство."
+                ""
             ],
             [
-                "Багряный поток Разрыва раздирает ... ты непобедим и всесокрушающ. Никто больше не превзойдёт тебя, никто!"
+                ""
             ],
             [
-                "Ледяные мурашки бегут по твое спине, определённо ты столкнулся с чем-то сверхъестественным."
+                ""
             ],
             [
-                "Видения будущего приходят во снах, ты заворожён блестящей палитрой переливов и пытаешься её воссоздать в своей памяти. "
+                ""
             ],
             [
-                "Ты стал единым целым с паразитом, теперь вам суждено делить голод на двоих ради твоих способностей."
+                ""
             ],
             [
-                "Чувство первозданного кайфа затмевает разум, животная часть тебя клокочет желая чего-то рептильного."
+                ""
             ],
             [
-                "Ты собран и готов к любой угрозе, любому врагу. Твоя сила воли держит тебя в ежовых рукавицах."
+                ""
             ],
             [
                 ""
@@ -2122,16 +1820,16 @@
         ],
         [
             [
-                "Зачем нужна геймплейно"
+                ""
             ],
             [
-                "Базовые ресурсы тела персонажа"
+                ""
             ],
             [
-                "Базовые ресурсы тела персонажа"
+                ""
             ],
             [
-                "Базовые ресурсы тела персонажа"
+                ""
             ],
             [
                 ""
@@ -2146,46 +1844,348 @@
                 ""
             ],
             [
-                "Существует 50 секунд"
+                ""
             ],
             [
-                "Существует 50 секунд"
+                ""
             ],
             [
-                "Существует 50 секунд"
+                ""
             ],
             [
-                "Существует 50 секунд"
+                ""
             ],
             [
-                "Существует 50 секунд"
+                ""
             ],
             [
-                "Существует 50 секунд"
+                ""
             ],
             [
-                "Существует 50 секунд. Негативная Карта."
+                ""
             ],
             [
-                "Существует 100 секунд. Негативная карта. Если Вы получите 2 Гордыни и у вас будет ещё один Разрыв на столе, вы получите карту - Переполняющая мощь. Спустя 30 секунд вы погибните - Плохая концовка- Магическая перегрузка."
+                ""
             ],
             [
-                "Существует 30 секунд"
+                ""
             ],
             [
-                "Существует 90 секунд"
+                ""
             ],
             [
-                "Существует 60 секунд"
+                ""
             ],
             [
-                "Существует 90 секунд (Нужно покормить или поглотит Живучесть)"
+                ""
             ],
             [
-                "Существует 60 секунд"
+                ""
             ],
             [
-                "Существует 100 секунд"
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
             ],
             [
                 ""
