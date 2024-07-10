@@ -8,71 +8,121 @@
 	"usedAddons": [
 		{
 			"type": "plugin",
+			"id": "AJAX",
+			"name": "AJAX",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Arr",
+			"name": "Array",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
 			"id": "Audio",
-			"name": "Аудио",
+			"name": "Audio",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "plugin",
 			"id": "HTMLElement",
-			"name": "HTML элемент",
+			"name": "HTML Element",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "plugin",
 			"id": "Internationalization",
-			"name": "Локализация",
+			"name": "Internationalization",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Keyboard",
+			"name": "Keyboard",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "plugin",
 			"id": "Mouse",
-			"name": "Мышь",
+			"name": "Mouse",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "plugin",
 			"id": "Sprite",
-			"name": "Спрайт",
+			"name": "Sprite",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "plugin",
 			"id": "Text",
-			"name": "Текст",
+			"name": "Text",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "behavior",
 			"id": "DragnDrop",
-			"name": "Перетаскивание",
+			"name": "Drag & Drop",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "behavior",
 			"id": "Pin",
-			"name": "Прикрепить",
+			"name": "Pin",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Rotate",
+			"name": "Rotate",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "behavior",
 			"id": "Tween",
-			"name": "Твин-анимация",
+			"name": "Tween",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "scrollto",
+			"name": "Scroll To",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "effect",
 			"id": "multiply",
-			"name": "Умножение",
+			"name": "Multiply",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "effect",
+			"id": "ultimatedropshadowcolor",
+			"name": "UltimateDropShadowColor",
+			"author": "Zane Little",
+			"bundled": false,
+			"version": "1.1.0.0"
+		},
+		{
+			"type": "effect",
+			"id": "warpobject",
+			"name": "Warp object",
 			"author": "Scirra",
 			"bundled": false
 		}
@@ -84,10 +134,10 @@
 			"HTMLElement",
 			"HTMLElement2",
 			"Sprite2",
-			"Sprite3",
-			"Sprite4",
+			"card_logo",
+			"card_template",
 			"Sprite5",
-			"Text",
+			"Card_text_label",
 			"Sprite6",
 			"Internationalization",
 			"Sprite7",
@@ -109,7 +159,7 @@
 			"Sprite17",
 			"aspect_icon_lore",
 			"Sprite18",
-			"Sprite19",
+			"constructor_box_text_bg",
 			"construtor_lore_text",
 			"card_holder_constructor",
 			"Sprite21",
@@ -119,7 +169,18 @@
 			"Sprite23",
 			"Sprite20",
 			"Sprite24",
-			"Спрайт"
+			"Спрайт",
+			"AJAX",
+			"Array",
+			"Text2",
+			"Sprite25",
+			"Sprite26",
+			"Sprite27",
+			"Sprite28",
+			"Text3",
+			"Sprite3",
+			"Sprite4",
+			"Keyboard"
 		],
 		"subfolders": []
 	},
@@ -131,13 +192,18 @@
 	},
 	"layouts": {
 		"items": [
-			"Layout 1"
+			"Layout 1",
+			"Layout 2",
+			"Layout 3"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
-			"Event sheet 1"
+			"Event sheet 1",
+			"Event sheet 2",
+			"Event sheet 3",
+			"Event sheet 4"
 		],
 		"subfolders": []
 	},
@@ -149,9 +215,25 @@
 		"sound": {
 			"items": [
 				{
-					"name": "2.Linvadel_s_lie.webm",
+					"name": "3. Instruments of Melatek (1).webm",
 					"type": "audio/webm; codecs=opus",
-					"sid": 595726229964227,
+					"sid": 386751968656685,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "2. Livandel's lie (1).webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 305486930181968,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "1.Serenity of Creation.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 188501669110961,
 					"file-info": {
 						"purpose": "none"
 					}
@@ -341,7 +423,7 @@
 				{
 					"name": "New Array.json",
 					"type": "application/json",
-					"sid": 243858345880011,
+					"sid": 453585835216060,
 					"file-info": {
 						"purpose": "none"
 					}
@@ -349,7 +431,15 @@
 				{
 					"name": "Новый массив.json",
 					"type": "application/json",
-					"sid": 964633363414040,
+					"sid": 642308844827256,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "file.json",
+					"type": "application/json",
+					"sid": 559233126505102,
 					"file-info": {
 						"purpose": "none"
 					}
